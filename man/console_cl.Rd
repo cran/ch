@@ -5,12 +5,12 @@
 \title{Remove '>' and '+' from the console and
 add '#' to the run result.}
 \usage{
-console_cl(preffix = "#>")
+console_cl(prefix = "#>")
 }
 \arguments{
-\item{preffix}{The preffix for code.The default is '#>'.
-You can change it according to your own preference, but I
-suggest '#' as the first character.}
+\item{prefix}{The prefix for code.The default is '#>'.
+You can edit it according to your own preference, but
+'#' should be  the first character.}
 }
 \value{
 the result of the run is saved to the clipboard.

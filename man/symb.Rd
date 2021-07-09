@@ -22,7 +22,7 @@ It may be faster than using \code{\link[Ryacas]{ysym}}.
 \examples{
 \donttest{
 library(Ryacas)
-symb(x,y,z)
+symb(x, y, z)
 str(x)
 }
 }

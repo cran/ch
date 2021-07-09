@@ -24,11 +24,13 @@ For more information , you can see \code{\link[grDevices]{plotmath}}.
 But it's a ggplot2 object!
 }
 \examples{
-a1 <- c('x \%*\% y' , 'x \%/\% y', 'alpha', 'sigma', 'beta' ,
- 'x == y', 'frac(x,y)', 'x \%up\% y', 'hat(x)',
- 'symbol(a)','underline(x)') 
- plot_table(a1,2)
- plot_table(a1,3)
+a1 <- c(
+  "x \%*\% y", "x \%/\% y", "alpha", "sigma", "beta",
+  "x == y", "frac(x,y)", "x \%up\% y", "hat(x)",
+  "symbol(a)", "underline(x)"
+)
+plot_table(a1, 2)
+plot_table(a1, 3)
 }
 \author{
 Chai

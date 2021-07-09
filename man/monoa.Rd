@@ -17,7 +17,7 @@ mono(ka, c, digits = 2, acid = TRUE, kw = 1e-14)
 
 \item{c}{concentration.}
 
-\item{digits}{digits of the output.}
+\item{digits}{digit of the output.}
 
 \item{acid}{if TRUE, it is equivalent
 to monoa function; if FALSE, it is
@@ -26,23 +26,17 @@ equivalent to monob function.}
 \item{kw}{the default is 1e-14}
 }
 \value{
-moona() willl return the pH of weak acid,
+monoa() will return the pH of weak acid,
 the monob() will return the pH of weak base.
 And you can also use the mono() function to
 replace the monoa()  function and monob() function.
 }
 \description{
 Calculate the pH of weak acid or base.
-
-Calculate the pH of weak base.
 }
 \examples{
-monoa(1.35e-5,0.01)
-monoa(1.4-6,2.35e-2)
-monoa(2.78e-8,0.01)
-monob(1.35e-5,0.01)
-monob(2.4-6,1e-4)
-}
-\author{
-Chai
+monoa(1.4 - 6, 2.35e-2)
+monoa(2.78e-8, 0.01)
+monob(1.35e-5, 0.01)
+monob(2.4 - 6, 1e-4)
 }

@@ -3,7 +3,7 @@
 \docType{package}
 \name{ch-package}
 \alias{ch-package}
-\title{ch: some samll functions}
+\title{ch: some small functions}
 \description{
 It's about some functions in chem and other questions.
 }

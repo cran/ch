@@ -33,17 +33,17 @@ Use such a function to calculate the spectral term,
 and  it can show the number of the spectral term.
 }
 \examples{
-  ground_state('p2')
-  ground_state('f3')
- state_2('p2')
- state_2('d3')
+ground_state("p2")
+ground_state("f3")
+state_2("p2")
+state_2("d3")
 }
 \references{
 The method of  state_1() and state_2() function is from:
 DOI:10.14159/j.cnki.0441-3776.1985.11.020
 And the url is:
 \url{https://t.cnki.net/kcms/detail?v=3uoqIhG8C44YLTlOAiTRKqd0WnNPv0wTDjtDUwHroNz8ZoQZVLjnVKa9t-3R3F8t9DSW1fOAkwcAF8JZi9EnOU8ccrbY3bNC&uniplatform=NZKPT}
-You can get more details from thie article.
+You can get more details from this essay.
 }
 \author{
 Chai

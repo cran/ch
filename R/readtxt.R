@@ -7,7 +7,7 @@
 #' @param header logical value
 #' @param ... for more see \code{\link[utils]{read.table}}
 #' @return  A data.frame
-#' @export 
-read.txt <- function(text,header = TRUE,...) {
-  return(read.table(text = text, header = header,...))
+#' @export
+read.txt <- function(text, header = TRUE, ...) {
+  return(read.table(text = text, header = header, ...))
 }

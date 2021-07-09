@@ -10,9 +10,9 @@ csv2vcf(csv_file, vcf_file, header = FALSE)
 \item{csv_file}{The csv file contains
 names and  phone numbers.
 The style is like this:
-joey  18100
-hans  12788
-tim   34689
+Joey  18100
+Hans  12788
+Tim   34689
 The first column is the name,
 the second column is the phone number corresponding to each person.
 The above is an example, and it is not true personal information summary.}
@@ -26,5 +26,5 @@ the default is FALSE.}
 NULL. t will be saved in a file with the suffix vcf.
 }
 \description{
-A simple method to generate VCF generate vcf files.
+A simple method to  generate vcf file.
 }

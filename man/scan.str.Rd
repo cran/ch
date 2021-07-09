@@ -7,7 +7,7 @@
 scan.str(string)
 }
 \arguments{
-\item{string}{a string that number is separeted by ' '.}
+\item{string}{a string that number is separated by ' '.}
 }
 \value{
 A vector that contains numbers.
@@ -16,7 +16,7 @@ A vector that contains numbers.
 Read data into a vector  from a string.
 }
 \examples{
-m <- '12 23 45 78 90 89 97'
+m <- "12 23 45 78 90 89 97"
 scan.str(m)
 }
 \author{
